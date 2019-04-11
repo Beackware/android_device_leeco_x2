@@ -11,7 +11,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=560
+    ro.sf.lcd_density=545
 
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
