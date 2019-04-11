@@ -29,11 +29,10 @@ TARGET_BOOT_ANIMATION_RES := 1440
 REVENGEOS_BUILDTYPE := OFFICIAL
 
 # Inherit some common RevengeOS stuff.
-$(call inherit-product, vendor/revengeos/config/common.mk)
-$(call inherit-product, vendor/revengeos/config/gsm.mk) 
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := revengeos_x2
+PRODUCT_NAME := arrow_x2
 PRODUCT_DEVICE := x2
 PRODUCT_BRAND := LeEco
 PRODUCT_MODEL := Le Max 2
